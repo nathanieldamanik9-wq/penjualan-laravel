@@ -36,7 +36,7 @@
  id="nama_produk"
  name="nama_produk"
  value="{{ old('nama_produk', $penjualan->nama_produk ?? '') }}"
- placeholder="Nama produk"
+ placeholder="Nama produk
  >
  @error('nama_produk') <div class="error">{{ $message }}</div> @enderror
  </div>
